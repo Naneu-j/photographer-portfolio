@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>John Doe Photography</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script defer src="script.js"></script>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <h3>John Doe Photography</h3>
+  <div>
+    <a href="#about">About</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section style="height: 90vh;
+  background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+  url('Photographer 2.jpg') center/cover no-repeat;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  color:white;" 
+  class="hero">
+  <div>
+    <h1 style="font-size:48px; margin-bottom:20px;">John Doe</h1>
+    <p style="font-size:18px; margin-bottom:30px;">Capturing Moments, Creating Memories</p>
+    <a href="#portfolio"><button class="btn">View Portfolio</button></a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about">
+  <h2>About Me</h2>
+  <div class="about">
+    <img src="Gallery 2.jpg">
+    <div>
+      <p>Hi, I'm John Doe, a professional photographer based in Nairobi, Kenya. I specialize in portrait, wedding, and commercial photography. My goal is to capture timeless moments in stunning quality.</p>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <h2>Portfolio</h2>
+  <div class="portfolio-grid">
+    <img src="Wedding.jpg">
+    <img src="Graduation 3.jpg">
+    <img src="Wedding 3.jpg">
+    <img src="Download .jpg">
+    <img src="Wedding 2.jpg">
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <h2>Services</h2>
+  <div class="services">
+    <div class="service-box">
+      <h3>Wedding Photography</h3>
+      <p>Capture your special day with elegance and style.</p>
+    </div>
+    <div class="service-box">
+      <h3>Portraits</h3>
+      <p>Professional portraits for personal or business use.</p>
+    </div>
+    <div class="service-box">
+      <h3>Commercial</h3>
+      <p>High-quality images for brands, products, and events.</p>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+  <h2>Testimonials</h2>
+  <div class="testimonial-grid">
+    <div class="testimonial">
+      <p>"John captured our wedding perfectly! Highly recommended."</p>
+      <strong>— Mary K.</strong>
+    </div>
+    <div class="testimonial">
+      <p>"Amazing portrait session. Very professional."</p>
+      <strong>— Peter W.</strong>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form" onsubmit="sendMessage(event)">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button class="btn">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2026 John Doe Photography 🇰🇪</p>
+</footer>
+
+</body>
+</html>
